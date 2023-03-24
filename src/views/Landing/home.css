@@ -1,0 +1,159 @@
+
+  /* ------ hero section ------- */
+.container{
+    
+    position: relative;
+    padding:5% 10%;
+    margin:0;
+    width:100%;
+    height:700px;
+  
+}
+
+ 
+
+.hero .title{
+    font-family: 'Poppins';
+    font-weight: 700;
+    color:white;
+    line-height: 1.2;
+    font-size:60px;
+    
+}
+
+.hero{
+    background-color:#1b1b1b;
+}
+
+
+.hero .sub-title{
+    margin: 20px 0;
+    font-family: 'Poppins';
+    font-weight: 200;
+    color:white;
+    line-height: 1.2;
+    font-size:30px;
+    
+}
+
+.hero .intro
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+
+.publish .intro
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.publish .title{
+    font-family: 'Poppins';
+    font-weight: 700;
+    color:#1b1b1b;
+    line-height: 1.2;
+    font-size:60px;
+    
+}
+
+.publish .sub-title{
+    margin: 20px 0;
+    font-family: 'Poppins';
+    font-weight: 300;
+    color:#1b1b1b;
+    line-height: 1.2;
+    font-size:25px;
+    
+}
+
+.publish .formats{
+    margin: 10px 0;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+
+.collab {
+    background-color: #03c9d7;
+}
+
+
+.collab .intro
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.collab .title{
+    font-family: 'Poppins';
+    font-weight: 700;
+    color:#1b1b1b;
+    line-height: 1.2;
+    font-size:60px;
+    
+}
+
+.collab .sub-title{
+    margin: 20px 0;
+    font-family: 'Poppins';
+    font-weight: 300;
+    color:#1b1b1b;
+    line-height: 1.2;
+    font-size:25px;
+    
+}
+
+.collab .formats{
+    margin: 10px 0;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+
+.featured{
+
+}
+.featured .title{
+    font-family: 'Poppins';
+    font-weight: 700;
+    color:#1b1b1b;
+    font-size: 30px;
+    text-align: center;
+}
+
+ 
+ 
+
+@media only screen and (max-width: 600px) {
+   
+    .container{
+        height:500px;
+       
+    }
+
+    .hero .title{ 
+        font-size:40px;
+        
+    }
+    .hero .sub-title{  
+        font-size:20px;
+        
+    }
+    .publish .title{ 
+        font-size:40px;
+        
+    }
+    .publish .sub-title{  
+        font-size:20px;
+        
+    }
+
+  }

@@ -1,0 +1,43 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".mdx", ".js"]
+      }
+    }
+  },
+  "extends": [
+    "airbnb",
+    "prettier",
+    "plugin:jsx-a11y/recommended",
+    "plugin:react-hooks/recommended"
+  ],
+  "plugins": ["prettier", "react", "react-hooks"],
+  // "parser": "babel-eslint",
+  "rules": {
+    "comma-dangle": "off",
+    "import/no-unresolved": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/control-has-associated-label": "off",
+    "jsx-a11y/no-static-element-interactions": "off",
+    "no-console": "warn",
+    "no-plusplus": "warn",
+    "react/no-danger": "warn",
+    "arrow-body-style": "warn",
+    "react-hooks/exhaustive-deps": "warn",
+    "react/forbid-prop-types": "warn",
+    "react/jsx-filename-extension": "warn",
+    "react/jsx-props-no-spreading": "warn",
+    "react/require-default-props": "warn",
+    "react/jsx-no-bind": "off",
+    "no-nested-ternary": "off",
+    "react/destructuring-assignment": "off",
+    "react/prop-types": "off"
+  }
+}

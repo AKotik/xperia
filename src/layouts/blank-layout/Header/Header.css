@@ -1,0 +1,18 @@
+.headroom{
+    background-color: #1b1b1b;
+}
+ .textdecoration{
+    text-decoration: none;
+ }
+ .headerpadding{
+    padding: 1% 10%;
+    display: flex;
+    justify-content: space-between;
+ }
+ @media (min-width:320px) and (max-width:820px) {
+    .headerpadding {
+            padding: 3% 7%;
+            display: flex;
+            justify-content: space-between;
+        }
+ }
