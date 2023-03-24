@@ -32,7 +32,6 @@
     "arrow-body-style": "warn",
     "react-hooks/exhaustive-deps": "warn",
     "react/forbid-prop-types": "warn",
-    "react/jsx-filename-extension": "warn",
     "react/jsx-props-no-spreading": "warn",
     "react/require-default-props": "warn",
     "react/jsx-no-bind": "off",
